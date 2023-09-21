@@ -1,0 +1,59 @@
+#bannerFold{
+    background: url('https://e0.pxfuel.com/wallpapers/248/109/desktop-wallpaper-car-wash.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+#bannerFold h1{
+    font-size: 100px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    color: transparent !important;
+}
+
+#bannerFold h2{
+    font-size: 90px;
+}
+
+.form-check .form-check-label{
+    border: 2px solid gainsboro;
+}
+
+.form-check-input:checked ~ .form-check-label{
+    border-color: skyblue;
+
+}
+
+.form-check-input:checked ~ .form-check-label .tick{
+    display: block;
+
+}
+
+.form-check .form-check-label .img-wrapper{
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+}
+
+.tick{
+    width: 30px;
+    height: 30px;
+    background-color: skyblue;
+    bottom: -15px;
+    right: -15px;
+    border-radius: 50%;
+    display: none;
+}
+
+.tick::before{
+    content: '';
+    width: 10px;
+    height: 5px;
+    border-width: 2px 2px 0px 0px;
+    border-color: white;
+    border-style: solid;
+    top: calc(50% - 3px);
+    left: calc(50% - 5px );
+    position: absolute;
+    transform: rotate(135deg);
+}

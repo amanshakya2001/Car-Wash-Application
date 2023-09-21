@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Wash</title>
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/299/299320.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="bannerFold">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-5 d-flex align-items-center">
+                    <div class="card p-4 shadow">
+                        <div class="card-header bg-white border-0 text-center text-info fw-medium fs-4">
+                            Choose Account Type
+                        </div>
+                        <div class="card-body">
+                          <form>
+                            <div class="d-flex">
+                              <div class="form-check px-3 col">
+                                <input class="form-check-input d-none" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked value="option1">
+                                <label class="form-check-label rounded-2 position-relative" for="flexRadioDefault1">
+                                  <div class="img-wrapper">
+                                    <img src="./user.png" alt="user" class="img-fluid">
+                                  </div>
+                                  <p class="text-center fw-bold mt-2">User</p>
+                                  <div class="tick position-absolute"></div>
+                                </label>
+                              </div>
+                              <div class="form-check px-3 col">
+                                <input class="form-check-input d-none" type="radio" name="flexRadioDefault" id="flexRadioDefault2"  value="option2">
+                                <label class="form-check-label rounded-2 position-relative" for="flexRadioDefault2">
+                                    <div class="img-wrapper">
+                                      <img src="./washer.png" alt="user" class="img-fluid">
+                                    </div>
+                                    <p class="text-center fw-bold mt-2">Washer</p>
+                                    <div class="tick position-absolute"></div>
+                                </label>
+                              </div>
+                            </div>
+                            <p class="text-muted text-center m-0 mt-5 fw-medium" id="dynamicGreet">Hello User!</p>
+                            <p class="text-muted text-center fw-medium m-0">Please fill out the form below to get started</p>
+                            <div class="form-floating mb-3 mt-5">
+                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                              <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                              <label for="floatingPassword">Password</label>
+                            </div>
+                            <button type="submit" class="btn btn-info text-white fw-bold d-table mx-auto mt-4 px-5 py-2">Submit</button>
+                          </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7 d-flex align-items-center flex-column justify-content-center h-100">
+                  <!-- <h1 class="text-white text-center">CaR </h1>
+                  <h2 class="text-white text-center">WaSh !</h2> -->
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
